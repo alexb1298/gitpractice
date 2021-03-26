@@ -26,4 +26,13 @@ public class Trainer
     public void setAge(int age) {
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "Trainer{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", role='" + role + '\'' +
+                '}';
+    }
 }
